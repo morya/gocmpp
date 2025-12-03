@@ -6,7 +6,7 @@ package cmpp_test
 import (
 	"testing"
 
-	cmpp "github.com/bigwhite/gocmpp"
+	cmpp "github.com/morya/gocmpp"
 )
 
 func FuzzSubmit(f *testing.F) {

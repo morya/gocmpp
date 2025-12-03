@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bigwhite/gocmpp"
+	"github.com/morya/gocmpp"
 )
 
 var data = []byte{

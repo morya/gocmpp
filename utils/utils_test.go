@@ -16,7 +16,7 @@ package cmpputils_test
 import (
 	"testing"
 
-	cmpputils "github.com/bigwhite/gocmpp/utils"
+	cmpputils "github.com/morya/gocmpp/utils"
 )
 
 func TestTimeStamp2Str(t *testing.T) {

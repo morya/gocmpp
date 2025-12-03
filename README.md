@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/bigwhite/gocmpp.svg?branch=master)](https://travis-ci.org/bigwhite/gocmpp)
 [![Coverage Status](https://coveralls.io/repos/github/bigwhite/gocmpp/badge.svg?branch=master)](https://coveralls.io/github/bigwhite/gocmpp?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bigwhite/gocmpp)](https://goreportcard.com/report/github.com/bigwhite/gocmpp)
-[![GoDoc](http://img.shields.io/badge/GoDoc-Reference-blue.svg)](https://godoc.org/github.com/bigwhite/gocmpp)
+[![Go Report Card](https://goreportcard.com/badge/github.com/morya/gocmpp)](https://goreportcard.com/report/github.com/morya/gocmpp)
+[![GoDoc](http://img.shields.io/badge/GoDoc-Reference-blue.svg)](https://godoc.org/github.com/morya/gocmpp)
 
 # gocmpp
 An implementation of China Mobile Peer to Peer(cmpp) protocol in golang for both client and server sides.
@@ -21,7 +21,7 @@ gocmpp has covered cmpp2.x and cmpp3.x versions. It has supported the connect, s
 
 ### 1. Download gocmpp
 ```
-$go get github.com/bigwhite/gocmpp
+$go get github.com/morya/gocmpp
 ```
 
 ### 2. Build gocmpp
@@ -30,7 +30,7 @@ gocmpp's build use the vendor mechanism introduced in go 1.5, so we need go 1.5 
 
 ```
 $export GO15VENDOREXPERIMENT="1"
-$cd $GOPATH/src/github.com/bigwhite/gocmpp
+$cd $GOPATH/src/github.com/morya/gocmpp
 $make
 $make
 go build -o examples/server/server examples/server/server.go
@@ -39,9 +39,9 @@ go build
 go build ./utils
 go test
 PASS
-ok  	github.com/bigwhite/gocmpp	0.009s
+ok  	github.com/morya/gocmpp	0.009s
 go test ./utils
-ok  	github.com/bigwhite/gocmpp/utils	0.008s
+ok  	github.com/morya/gocmpp/utils	0.008s
 ```
 
 ### 3. Run the examples
@@ -86,7 +86,7 @@ client:
 2015/11/19 16:29:10 receive a cmpp3 submit response: &{12878564852733378560 0 3}
 ```
 ### 4.How to use the library
-The best start entry is the code in folder '[examples](https://github.com/bigwhite/gocmpp/tree/master/examples)'. 
+The best start entry is the code in folder '[examples](https://github.com/morya/gocmpp/tree/master/examples)'. 
  * client.go tells you how to use gocmpp in client side.
  * server.go presents you how to construct a cmpp server in gocmpp.
  

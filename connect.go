@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"time"
 
-	cmpputils "github.com/bigwhite/gocmpp/utils"
+	cmpputils "github.com/morya/gocmpp/utils"
 )
 
 // Packet length const for cmpp connect request and response packets.

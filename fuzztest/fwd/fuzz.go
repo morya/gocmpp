@@ -16,7 +16,7 @@
 package cmppfuzz
 
 import (
-	"github.com/bigwhite/gocmpp"
+	"github.com/morya/gocmpp"
 )
 
 func Fuzz(data []byte) int {

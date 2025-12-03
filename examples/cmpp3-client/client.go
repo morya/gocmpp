@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	cmpp "github.com/bigwhite/gocmpp"
-	cmpputils "github.com/bigwhite/gocmpp/utils"
+	cmpp "github.com/morya/gocmpp"
+	cmpputils "github.com/morya/gocmpp/utils"
 )
 
 const (

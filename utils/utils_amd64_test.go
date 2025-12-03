@@ -16,7 +16,7 @@ package cmpputils_test
 import (
 	"testing"
 
-	"github.com/bigwhite/gocmpp/utils"
+	"github.com/morya/gocmpp/utils"
 )
 
 func TestIsBigEndian(t *testing.T) {

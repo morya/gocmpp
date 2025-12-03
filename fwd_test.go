@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bigwhite/gocmpp"
-	"github.com/bigwhite/gocmpp/utils"
+	"github.com/morya/gocmpp"
+	"github.com/morya/gocmpp/utils"
 )
 
 var (

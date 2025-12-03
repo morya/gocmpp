@@ -16,7 +16,7 @@ package cmpp_test
 import (
 	"testing"
 
-	"github.com/bigwhite/gocmpp"
+	"github.com/morya/gocmpp"
 )
 
 var (
