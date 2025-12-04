@@ -6,6 +6,8 @@
 # gocmpp
 An implementation of China Mobile Peer to Peer(cmpp) protocol in golang for both client and server sides.
 
+A fork of https://github.com/bigwhite/gocmpp/
+
 The protocol versions below are covered：
 * [cmpp2.1](http://pan.baidu.com/s/13E0Q6)
 * [cmpp3.0](http://pan.baidu.com/s/1o61obA6)
